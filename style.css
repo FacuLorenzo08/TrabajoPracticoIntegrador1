@@ -1,0 +1,144 @@
+/* GENERAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* CUERPO */
+body {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(74, 74, 74, 0.522);
+    padding: 0vh 4vh;
+}
+.codoacodo {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav a:active {
+    color: white;
+}
+
+/* CUERPO */
+/* LA CONFERENCIA */
+section {
+    max-width: 100%;
+}
+.conferencia {
+    background-image: url(./imagenes/ba1.jpg);
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.overlay{
+    position:absolute;
+    width: 100%;
+    height: 85vh;
+    top: 0;
+    left: 0;
+    background: rgba(13, 13, 18, 0.605);
+}
+.conf-imagen-text {
+    padding-right: 8vh;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content:flex-end;
+    position: relative;
+    z-index: 999;
+    color: white;
+    text-align: justify;
+}
+
+/* ORADORES */
+.oradores {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0vh;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.195) !important;
+}
+.card-img-top {
+    height: 38vh;
+}
+.card-group {
+    width: 70%;
+    display: flex;
+    gap: 5rem;
+}
+.card-text {
+    font-size: 13px;
+}
+
+/* HONOLULU */
+.card-body-honolulu {
+    margin-left: 1px;
+    background-color: rgba(48, 48, 48, 0.997);
+    color: white;
+    padding: 3vh;
+    height: 100%;
+}
+/* h6 {
+    text-decoration-line: dotted;
+} */
+
+/* FORMULARIO */
+.formulario {
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.formulario div p span {
+    text-decoration: underline dotted 1px black;
+}
+.formulario form {
+    justify-content: space-evenly;
+}
+.formulario form button {
+    width: 100%;
+    background-color: rgb(117, 204, 36);
+    color: white;
+    font-weight: 600;
+}
+
+/* PIÉ DE PÁGINA */
+footer {
+    height: 15vh;
+    background-image: linear-gradient(to right top, #0a2040, #002b65, #012f7f, #0137a2, #2d3cc9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div {
+    gap: 12%;
+}
+footer div a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
