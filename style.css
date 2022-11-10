@@ -127,18 +127,76 @@ section {
     font-weight: 600;
 }
 
+/* TICKETS */
+.tickets {
+    /* min-height: 74vh; */
+    width: 100%;
+}
+
+.tickets div .image {
+    /* color: #ffffff; */
+    float: left;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px 1%;
+    max-width: 250px;
+    min-width: 220px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tickets #estudiante {
+    box-shadow: 0 0 5px rgb(8, 15, 232);
+}
+.tickets #trainee {
+    box-shadow: 0 0 5px rgb(8, 206, 232);
+}
+
+.tickets #junior {
+    box-shadow: 0 0 5px rgb(232, 217, 8);
+}
+
+.tickets2 {
+    text-align: center;
+    /* max-width: 900px; */
+    width: 720px;
+    margin: 1vh auto 5vh;
+    padding: 30px 45px;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+#texto-total div p {
+    border-radius: 1vh;
+}
+
 /* PIÉ DE PÁGINA */
 footer {
-    height: 15vh;
+    height: 16vh;
     background-image: linear-gradient(to right top, #0a2040, #002b65, #012f7f, #0137a2, #2d3cc9);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer .link {
     align-items: center;
     justify-content: center;
+    display: flex;
+    gap: 8%;
 }
-footer div {
-    gap: 12%;
-}
-footer div a {
+footer .link a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+footer .copy {
+    color: rgb(62, 250, 250);
+    width: 100%;
+    text-align: end;
+    margin-right: 1rem;
+    font-size: 12px;
 }
